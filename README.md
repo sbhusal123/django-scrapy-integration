@@ -17,6 +17,8 @@
 
 ## 3. Integration Part
 
+> Executes the crawler using os.system('command') from django management command.
+
 -   [Integration and django setup inside scrapy project](https://github.com/sbhusal123/django-scrapy-integration/blob/main/djscrapyquotes/scraper/scraper/settings.py#L95)
 
 ```python
@@ -38,8 +40,6 @@ django.setup()
 ```
 
 ## 4. Runing Spider Standalone Mode(Without Using Django Management Command)
-
-> Executes the crawler using os.system('command') from django management command.
 
 [Spiders](https://github.com/sbhusal123/django-scrapy-integration/tree/main/djscrapyquotes/scraper/scraper/spiders)
 
