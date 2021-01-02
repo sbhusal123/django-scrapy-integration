@@ -37,11 +37,15 @@ django.setup()
 
 ## 4. Runing Spider Standalone Mode(Without Using Django Management Command)
 
+> Executes the crawler using os.system('command') from django management command.
+
 [Spiders](https://github.com/sbhusal123/django-scrapy-integration/tree/main/djscrapyquotes/scraper/scraper/spiders)
 
 [Scrapy project](https://github.com/sbhusal123/django-scrapy-integration/tree/main/djscrapyquotes/scraper)
 
 > Before executing commands below make sure. You're inside **scraper** folder. `cd scraper`
+
+[Commands](https://github.com/sbhusal123/django-scrapy-integration/tree/main/djscrapyquotes/quotes/management/commands)
 
 **i. QuotesSpider:**
 
