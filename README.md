@@ -13,6 +13,8 @@
 
 > Custom Command Can be found inside **djscrapyquotes/quotes/management/commands**
 
+[Commands](https://github.com/sbhusal123/django-scrapy-integration/tree/main/djscrapyquotes/quotes/management/commands)
+
 ## 3. Integration Part
 
 -   [Integration and django setup inside scrapy project](https://github.com/sbhusal123/django-scrapy-integration/blob/main/djscrapyquotes/scraper/scraper/settings.py#L95)
@@ -44,8 +46,6 @@ django.setup()
 [Scrapy project](https://github.com/sbhusal123/django-scrapy-integration/tree/main/djscrapyquotes/scraper)
 
 > Before executing commands below make sure. You're inside **scraper** folder. `cd scraper`
-
-[Commands](https://github.com/sbhusal123/django-scrapy-integration/tree/main/djscrapyquotes/quotes/management/commands)
 
 **i. QuotesSpider:**
 
